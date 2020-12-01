@@ -1,0 +1,353 @@
+('C:\\Users\\Lionel Baur\\OneDrive - ICT Berufsfachschulen Kanton '
+ 'Thurgau\\Dokumente\\GitHub\\PasswordCracker\\Code\\Chrome\\dist\\chromecheat.exe',
+ True,
+ False,
+ False,
+ None,
+ None,
+ False,
+ False,
+ '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><assemblyIdentity type="win32" name="chromecheat" processorArchitecture="amd64" version="1.0.0.0"/><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"/></requestedPrivileges></security></trustInfo><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" language="*" processorArchitecture="*" version="6.0.0.0" publicKeyToken="6595b64144ccf1df"/><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"/></dependentAssembly></dependency><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"><application><supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/><supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/><supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/><supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/><supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/></application></compatibility></assembly>',
+ True,
+ 'chromecheat.pkg',
+ [('PYZ-00.pyz',
+   'C:\\Users\\Lionel Baur\\OneDrive - ICT Berufsfachschulen Kanton '
+   'Thurgau\\Dokumente\\GitHub\\PasswordCracker\\Code\\Chrome\\build\\chromecheat\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Lionel '
+   'Baur\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\Lionel '
+   'Baur\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_win32api',
+   'C:\\Users\\Lionel '
+   'Baur\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_win32api.py',
+   'PYSOURCE'),
+  ('pyi_rth_win32comgenpy',
+   'C:\\Users\\Lionel '
+   'Baur\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_win32comgenpy.py',
+   'PYSOURCE'),
+  ('chromecheat',
+   'C:\\Users\\Lionel Baur\\OneDrive - ICT Berufsfachschulen Kanton '
+   'Thurgau\\Dokumente\\GitHub\\PasswordCracker\\Code\\Chrome\\chromecheat.py',
+   'PYSOURCE'),
+  ('python39.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\python39.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_ARC4.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_ARC4.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_MD5.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_MD5.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_ghash_portable.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_ghash_portable.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_ghash_clmul.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_ghash_clmul.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\PublicKey\\_ec_ws.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\PublicKey\\_ec_ws.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Protocol\\_scrypt.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Protocol\\_scrypt.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Math\\_modexp.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Math\\_modexp.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_poly1305.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_poly1305.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA384.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA384.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('pywintypes39.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pywin32_system32\\pywintypes39.dll',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA512.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA512.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_des.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_des.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA1.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA1.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_MD4.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_MD4.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_cast.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_cast.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_arc2.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_arc2.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('pythoncom39.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pywin32_system32\\pythoncom39.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_eksblowfish.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_eksblowfish.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_Salsa20.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_Salsa20.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_blowfish.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_blowfish.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_aesni.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_aesni.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_des3.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_des3.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA256.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA256.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Util\\_strxor.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Util\\_strxor.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ctr.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ctr.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_keccak.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_keccak.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_cfb.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_cfb.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_RIPEMD160.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_RIPEMD160.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Util\\_cpuid_c.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Util\\_cpuid_c.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_BLAKE2s.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_BLAKE2s.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA224.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA224.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_chacha20.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_chacha20.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_BLAKE2b.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_BLAKE2b.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_cbc.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_cbc.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ocb.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ocb.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ecb.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ecb.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_MD2.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_MD2.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_aes.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_aes.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ofb.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ofb.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('win32trace',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\win32trace.pyd',
+   'EXTENSION'),
+  ('win32ui',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\win32ui.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_decimal',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_overlapped',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_asyncio',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_queue',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_multiprocessing',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_win32sysloader',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\_win32sysloader.pyd',
+   'EXTENSION'),
+  ('win32api',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('win32com.shell.shell',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32comext\\shell\\shell.pyd',
+   'EXTENSION'),
+  ('_uuid',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('_cffi_backend',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\_cffi_backend.cp39-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32crypt',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32\\win32crypt.pyd',
+   'EXTENSION'),
+  ('_sqlite3',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('mfc140u.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Pythonwin\\mfc140u.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\libffi-7.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\DLLs\\sqlite3.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'C:\\Users\\Lionel Baur\\OneDrive - ICT Berufsfachschulen Kanton '
+   'Thurgau\\Dokumente\\GitHub\\PasswordCracker\\Code\\Chrome\\build\\chromecheat\\base_library.zip',
+   'DATA'),
+  ('Include\\pyconfig.h',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\Include\\pyconfig.h',
+   'DATA'),
+  ('chromecheat.exe.manifest',
+   'C:\\Users\\Lionel Baur\\OneDrive - ICT Berufsfachschulen Kanton '
+   'Thurgau\\Dokumente\\GitHub\\PasswordCracker\\Code\\Chrome\\build\\chromecheat\\chromecheat.exe.manifest',
+   'BINARY'),
+  ('pyi-windows-manifest-filename chromecheat.exe.manifest', '', 'OPTION')],
+ [],
+ False,
+ False,
+ 1606807453,
+ [('run.exe',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
+   'EXECUTABLE')])
