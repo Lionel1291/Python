@@ -27,3 +27,5 @@ print("Gibt True zurück\t"+str(boolean2))
 boolean3 = bool(0)
 print("Gibt False zurück\t"+str(boolean3))
 
+print(input("Bitte etwas eingeben: ")+" ist Ihre Eingabe")
+

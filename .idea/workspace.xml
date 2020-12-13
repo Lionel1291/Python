@@ -172,7 +172,8 @@
       <workItem from="1607436936049" duration="394000" />
       <workItem from="1607439615881" duration="335000" />
       <workItem from="1607785946249" duration="908000" />
-      <workItem from="1607791169239" duration="2943000" />
+      <workItem from="1607791169239" duration="2998000" />
+      <workItem from="1607865782433" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="Com">
       <created>1607437112963</created>
@@ -213,7 +214,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PasswordCracker$ChangeUserPassword.coverage" NAME="ChangeUserPassword Coverage Results" MODIFIED="1606764132991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Windows" />
     <SUITE FILE_PATH="coverage/PasswordCracker$Taschenrechner.coverage" NAME="Taschenrechner Coverage Results" MODIFIED="1607351383919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/FuerUnterricht" />
-    <SUITE FILE_PATH="coverage/PasswordCracker$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1607792268183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/FuerUnterricht" />
+    <SUITE FILE_PATH="coverage/PasswordCracker$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1607865829270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/FuerUnterricht" />
     <SUITE FILE_PATH="coverage/PasswordCracker$chromecheat.coverage" NAME="chromecheat Coverage Results" MODIFIED="1606809250832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Chrome" />
     <SUITE FILE_PATH="coverage/PasswordCracker$TR.coverage" NAME="TR Coverage Results" MODIFIED="1606746003537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
     <SUITE FILE_PATH="coverage/PasswordCracker$MultiplePasswordReader.coverage" NAME="MultiplePasswordReader Coverage Results" MODIFIED="1607351037415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/MultiplePasswordReader" />
