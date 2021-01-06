@@ -15,7 +15,10 @@ def funktion():
     boolean = bool(False)
     floatf = float(12.12010)
     null = None
+    result = 12 + 13
     return
+
+funktion()
 
 boolean = bool(10 == 11)
 print(boolean)
@@ -28,4 +31,3 @@ boolean3 = bool(0)
 print("Gibt False zurück\t"+str(boolean3))
 
 print(input("Bitte etwas eingeben: ")+" ist Ihre Eingabe")
-

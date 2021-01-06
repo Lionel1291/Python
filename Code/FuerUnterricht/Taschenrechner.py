@@ -1,14 +1,14 @@
 def multiplikation(numberOne,numberTwo):
-    return numberOne * numberTwo;
+    return numberOne * numberTwo
 
 def division(numberOne,numberTwo):
-    return numberOne / numberTwo;
+    return numberOne / numberTwo
 
 def addition(numberOne,numberTwo):
-    return numberOne + numberTwo;
+    return numberOne + numberTwo
 
 def subtraktion(numberOne,numberTwo):
-    return numberOne - numberTwo;
+    return numberOne - numberTwo
 
 def modulo(numberOne,numberTwo):
     return numberOne % numberTwo
