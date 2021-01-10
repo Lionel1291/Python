@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e179c39-2546-49c1-9bbc-780029b470c1" name="Default Changelist" comment="Com">
+      <change afterPath="$PROJECT_DIR$/Code/FuerUnterricht/MultiplePasswordReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/FuerUnterricht/UserPWChange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/dist/WifiPasswords.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/FuerUnterricht/HelloWorld.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/FuerUnterricht/HelloWorld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/FuerUnterricht/Taschenrechner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/FuerUnterricht/Taschenrechner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/MultiplePasswordReader/MultiplePasswordReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/MultiplePasswordReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/MultiplePasswordReader/MultiplePasswordReader.spec" beforeDir="false" afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/MultiplePasswordReader.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/warn-MultiplePasswordReader.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/build/MultiplePasswordReader/warn-MultiplePasswordReader.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/MultiplePasswordReader/dist/MultiplePasswordReader.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Code/MultiplePasswordReader/dist/MultiplePasswordReader.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Wlan/WLanPasswords.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Wlan/WLanPasswords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Wlan/WifiPasswords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Wlan/dist/WifiPasswords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Wlan/dist/WifiPasswords.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +42,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Code/FuerUnterricht" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.HelloWorld">
-    <configuration name="ChangeUserPassword" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lionel Baur\OneDrive - ICT Berufsfachschulen Kanton Thurgau\Dokumente\GitHub\PasswordCracker\Code\FuerUnterricht" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.UserPWChange">
+    <configuration name="ChangeUserThings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PasswordCracker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,7 +68,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Windows/ChangeUserPassword.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Windows/ChangeUserThings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GetWifiPW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PasswordCracker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code/Wlan" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Wlan/GetWifiPW.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Taschenrechner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="UserPWChange" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PasswordCracker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,34 +151,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code/FuerUnterricht" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code/Windows" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/FuerUnterricht/Taschenrechner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="chromecheat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PasswordCracker" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code/Chrome" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Chrome/chromecheat.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Windows/UserPWChange.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HelloWorld" />
-        <item itemvalue="Python.Taschenrechner" />
+        <item itemvalue="Python.UserPWChange" />
+        <item itemvalue="Python.ChangeUserThings" />
         <item itemvalue="Python.MultiplePasswordReader" />
-        <item itemvalue="Python.chromecheat" />
-        <item itemvalue="Python.ChangeUserPassword" />
+        <item itemvalue="Python.GetWifiPW" />
+        <item itemvalue="Python.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +200,10 @@
       <workItem from="1607957349891" duration="1093000" />
       <workItem from="1609767811847" duration="227000" />
       <workItem from="1609923541146" duration="60000" />
+      <workItem from="1609923666605" duration="9000" />
+      <workItem from="1609923779352" duration="2000" />
+      <workItem from="1610286063183" duration="2182000" />
+      <workItem from="1610288791143" duration="279000" />
     </task>
     <task id="LOCAL-00001" summary="Com">
       <created>1607437112963</created>
@@ -219,10 +243,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PasswordCracker$ChangeUserPassword.coverage" NAME="ChangeUserPassword Coverage Results" MODIFIED="1606764132991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Windows" />
+    <SUITE FILE_PATH="coverage/PasswordCracker$ChangeUserThings.coverage" NAME="ChangeUserThings Coverage Results" MODIFIED="1610288102929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Windows" />
+    <SUITE FILE_PATH="coverage/PasswordCracker$GetWifiPW.coverage" NAME="GetWifiPW Coverage Results" MODIFIED="1610286912670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Wlan" />
+    <SUITE FILE_PATH="coverage/PasswordCracker$UserPWChange.coverage" NAME="UserPWChange Coverage Results" MODIFIED="1610288951438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Windows" />
     <SUITE FILE_PATH="coverage/PasswordCracker$Taschenrechner.coverage" NAME="Taschenrechner Coverage Results" MODIFIED="1607351383919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/FuerUnterricht" />
-    <SUITE FILE_PATH="coverage/PasswordCracker$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1607957364463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/FuerUnterricht" />
+    <SUITE FILE_PATH="coverage/PasswordCracker$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1610286894826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/FuerUnterricht" />
     <SUITE FILE_PATH="coverage/PasswordCracker$chromecheat.coverage" NAME="chromecheat Coverage Results" MODIFIED="1606809250832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Chrome" />
     <SUITE FILE_PATH="coverage/PasswordCracker$TR.coverage" NAME="TR Coverage Results" MODIFIED="1606746003537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
-    <SUITE FILE_PATH="coverage/PasswordCracker$MultiplePasswordReader.coverage" NAME="MultiplePasswordReader Coverage Results" MODIFIED="1607351037415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/MultiplePasswordReader" />
+    <SUITE FILE_PATH="coverage/PasswordCracker$MultiplePasswordReader.coverage" NAME="MultiplePasswordReader Coverage Results" MODIFIED="1610288042410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/MultiplePasswordReader" />
   </component>
 </project>

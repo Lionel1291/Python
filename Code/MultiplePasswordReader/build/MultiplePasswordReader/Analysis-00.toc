@@ -1053,37 +1053,45 @@
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.requirements',
+  ('pkg_resources._vendor.packaging._compat',
    'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
+  ('pkg_resources._vendor',
    'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.tags',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging.specifiers',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
+  ('pkg_resources._vendor.packaging.requirements',
    'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
   ('pkg_resources._vendor.appdirs',
    'c:\\users\\lionel '
@@ -1097,18 +1105,6 @@
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\win32comext\\shell\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.six',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.utils',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
@@ -1117,9 +1113,13 @@
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\uuid.py',
    'PYMODULE'),
-  ('pkg_resources._vendor',
+  ('pkg_resources._vendor.six',
    'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
   ('pkg_resources.extern',
    'c:\\users\\lionel '
@@ -1309,29 +1309,53 @@
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.markers',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.version',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('setuptools._vendor.ordered_set',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
-   'PYMODULE'),
   ('setuptools._vendor.packaging._compat',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
    'PYMODULE'),
   ('setuptools._vendor',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
    'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
   ('setuptools._vendor.six',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\six.py',
+   'PYMODULE'),
+  ('setuptools._vendor.ordered_set',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.requirements',
    'c:\\users\\lionel '
@@ -1349,33 +1373,9 @@
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\extern\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.specifiers',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
-   'PYMODULE'),
   ('setuptools._vendor.packaging.utils',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.__about__',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.tags',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._structures',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
   ('setuptools.msvc',
    'c:\\users\\lionel '
@@ -1709,161 +1709,161 @@
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\python39.dll',
    'BINARY'),
-  ('Crypto\\Cipher\\_ARC4.cp39-win_amd64.pyd',
+  ('Crypto\\Hash\\_ghash_clmul.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_ARC4.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Hash\\_MD4.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_MD4.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Hash\\_SHA512.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA512.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_chacha20.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_chacha20.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Util\\_cpuid_c.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Util\\_cpuid_c.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_raw_cbc.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_cbc.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_raw_ctr.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ctr.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_raw_des.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_des.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('pythoncom39.dll',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pywin32_system32\\pythoncom39.dll',
-   'BINARY'),
-  ('Crypto\\Hash\\_SHA224.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA224.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Hash\\_MD2.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_MD2.cp39-win_amd64.pyd',
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_ghash_clmul.cp39-win_amd64.pyd',
    'BINARY'),
   ('Crypto\\Hash\\_SHA256.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA256.cp39-win_amd64.pyd',
    'BINARY'),
-  ('Crypto\\PublicKey\\_ec_ws.cp39-win_amd64.pyd',
+  ('Crypto\\Cipher\\_raw_ofb.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\PublicKey\\_ec_ws.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_raw_cast.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_cast.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Hash\\_poly1305.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_poly1305.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Hash\\_ghash_clmul.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_ghash_clmul.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Protocol\\_scrypt.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Protocol\\_scrypt.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Hash\\_BLAKE2s.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_BLAKE2s.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Hash\\_MD5.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_MD5.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_raw_ecb.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ecb.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Util\\_strxor.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Util\\_strxor.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Hash\\_RIPEMD160.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_RIPEMD160.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_raw_des3.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_des3.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_raw_aes.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_aes.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_raw_eksblowfish.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_eksblowfish.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('pywintypes39.dll',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pywin32_system32\\pywintypes39.dll',
-   'BINARY'),
-  ('Crypto\\Cipher\\_raw_ocb.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ocb.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Hash\\_ghash_portable.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_ghash_portable.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Math\\_modexp.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Math\\_modexp.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_Salsa20.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_Salsa20.cp39-win_amd64.pyd',
-   'BINARY'),
-  ('Crypto\\Cipher\\_raw_aesni.cp39-win_amd64.pyd',
-   'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_aesni.cp39-win_amd64.pyd',
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ofb.cp39-win_amd64.pyd',
    'BINARY'),
   ('Crypto\\Hash\\_keccak.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_keccak.cp39-win_amd64.pyd',
    'BINARY'),
-  ('Crypto\\Cipher\\_raw_arc2.cp39-win_amd64.pyd',
+  ('Crypto\\Cipher\\_raw_des3.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_arc2.cp39-win_amd64.pyd',
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_des3.cp39-win_amd64.pyd',
    'BINARY'),
-  ('Crypto\\Cipher\\_raw_ofb.cp39-win_amd64.pyd',
+  ('Crypto\\Cipher\\_raw_eksblowfish.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ofb.cp39-win_amd64.pyd',
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_eksblowfish.cp39-win_amd64.pyd',
    'BINARY'),
   ('Crypto\\Cipher\\_raw_blowfish.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_blowfish.cp39-win_amd64.pyd',
    'BINARY'),
-  ('Crypto\\Hash\\_SHA1.cp39-win_amd64.pyd',
+  ('Crypto\\Hash\\_BLAKE2s.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA1.cp39-win_amd64.pyd',
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_BLAKE2s.cp39-win_amd64.pyd',
    'BINARY'),
-  ('Crypto\\Hash\\_BLAKE2b.cp39-win_amd64.pyd',
+  ('Crypto\\Hash\\_SHA224.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
-   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_BLAKE2b.cp39-win_amd64.pyd',
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA224.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('pywintypes39.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pywin32_system32\\pywintypes39.dll',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA512.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA512.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_arc2.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_arc2.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ctr.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ctr.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_chacha20.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_chacha20.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_Salsa20.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_Salsa20.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_MD5.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_MD5.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_MD2.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_MD2.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Util\\_cpuid_c.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Util\\_cpuid_c.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Math\\_modexp.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Math\\_modexp.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Protocol\\_scrypt.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Protocol\\_scrypt.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_ARC4.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_ARC4.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ecb.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ecb.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_poly1305.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_poly1305.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ocb.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_ocb.cp39-win_amd64.pyd',
    'BINARY'),
   ('Crypto\\Hash\\_SHA384.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA384.cp39-win_amd64.pyd',
    'BINARY'),
+  ('pythoncom39.dll',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pywin32_system32\\pythoncom39.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_aes.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_aes.cp39-win_amd64.pyd',
+   'BINARY'),
   ('Crypto\\Cipher\\_raw_cfb.cp39-win_amd64.pyd',
    'c:\\users\\lionel '
    'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_cfb.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\PublicKey\\_ec_ws.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\PublicKey\\_ec_ws.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Util\\_strxor.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Util\\_strxor.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA1.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_SHA1.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_aesni.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_aesni.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_cast.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_cast.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_MD4.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_MD4.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_RIPEMD160.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_RIPEMD160.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_BLAKE2b.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_BLAKE2b.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_cbc.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_cbc.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_ghash_portable.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Hash\\_ghash_portable.cp39-win_amd64.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_des.cp39-win_amd64.pyd',
+   'c:\\users\\lionel '
+   'baur\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\Crypto\\Cipher\\_raw_des.cp39-win_amd64.pyd',
    'BINARY'),
   ('win32trace',
    'c:\\users\\lionel '
